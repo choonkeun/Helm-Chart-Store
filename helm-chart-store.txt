@@ -1,0 +1,31 @@
+
+1. Create Github repository : helm-chart-store
+
+- https://github.com/choonkeun/helm-chart-store.git
+
+echo "# helm-chart-store" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/choonkeun/helm-chart-store.git
+git push -u origin main
+
+git remote add origin https://github.com/choonkeun/helm-chart-store.git
+git branch -M main
+git push -u origin main
+
+
+2. Create Authorization Token : Skip
+
+--------------------------
+On Kubernetes master node:
+--------------------------
+3. change folder: PS D:\Projects\Kubernetes\Setup\Helm Repository\my-nginx\helm-chart-store>
+
+git init
+git add .
+git config --global user.email "choonkeun@yahoo.com"
+git config --global user.name "choonkeun"           
+git commit -m "initial"
+
