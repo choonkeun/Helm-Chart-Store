@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  appinsight:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-03-02T20:49:41.426702696-08:00"
+    description: A Helm chart for Kubernetes
+    digest: 836a6cb332407e76d259353397052d8e6a6eac4c9baf5d65f26f3b6576a3a886
+    name: appinsight
+    type: application
+    urls:
+    - https://github.com/choonkeun/helm-chart-store/raw/main/appinsight-0.1.0.tgz
+    version: 0.1.0
   my-nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-25T13:43:44.488984949-08:00"
+    created: "2024-03-02T20:49:41.426946897-08:00"
     description: A Helm chart for running nginx webserver on ubuntu
     digest: f5bee33740f19968fc2ddff2c80e8a27d35f7aec7d6fb9cd3a5ca8263a2e55b5
     name: my-nginx
     type: application
     urls:
-    - my-nginx-0.1.0.tgz
+    - https://github.com/choonkeun/helm-chart-store/raw/main/my-nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-25T13:43:44.488104143-08:00"
+generated: "2024-03-02T20:49:41.426318393-08:00"
