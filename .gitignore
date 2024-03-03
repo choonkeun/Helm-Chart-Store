@@ -1,0 +1,6 @@
+*.txt
+*.log
+
+appinsight/
+my-nginx/
+
